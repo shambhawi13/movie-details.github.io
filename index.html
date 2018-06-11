@@ -1,0 +1,53 @@
+    <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Search Movie</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="chosen_v1.8.5/chosen.css">
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 header">
+                    <label>Search Movie By:</label>
+                    <div>
+                        <select class="chosen" name="searchCriteria">
+                            <option value="ID">ID</option>
+                            <option value="Title">Title</option>
+                            <option value="Year">Year</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 header">
+                    <div class="search-section">
+                        <input type="text" name="search" placeholder="To be Searched here" id="search">
+                        <input type="button" name="searchButton" id="searchButton" value="Search">
+                    </div>
+                </div>
+
+            <div class="col-xs-12 detail">
+                <div id="movieDetail" class="col-xs-8">
+                    <div class="col-xs-12"><label class="titles">Movie Name: </label><label id="name"></label></div>
+                    <div class="col-xs-12"><label class="titles">Year of Release: </label><label id="releaseYear"></label></div>
+                    <div class="col-xs-12"><label class="titles">Genre: </label><label id="genre"></label></div>
+                    <div class="col-xs-12"><label class="titles">Director: </label><label id="director"></label></div>
+                    <div class="col-xs-12"><label class="titles">Languages: </label><label id="language"></label></div>
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+        </div>
+
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="chosen_v1.8.5/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="chosen_v1.8.5/chosen.jquery.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+
+    </html>

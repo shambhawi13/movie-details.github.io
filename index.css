@@ -1,0 +1,31 @@
+#search{
+	border-radius: 5px;
+    height: 25px;
+    width: 60%;
+    margin-bottom: 1vw;
+}
+#searchButton{
+	border-radius: 5px;
+    height: 25px;
+}
+
+.header{
+	padding-top: 2vw;
+
+}
+
+.header .search-section{
+	padding-top: 2vw;
+}
+
+.titles{
+	font-weight: bold;
+	padding-right: 0.5vw;
+}
+
+.detail{
+	border: 1px solid grey;
+    width: 85%;
+    margin-top: 2vw;
+    padding-left: 1vw;
+}
