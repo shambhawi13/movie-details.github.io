@@ -31,7 +31,7 @@ $(document).ready(()=>{
         		type: 'GET',
         		dataType: 'json',
         		async: true,
-        		url: 'http://www.omdbapi.com/?i='+searchValue+'&apikey='+key,
+        		url: 'https://www.omdbapi.com/?i='+searchValue+'&apikey='+key,
 
         		success: (response) => {
             		console.log(response);
@@ -54,7 +54,7 @@ $(document).ready(()=>{
         		type: 'GET',
         		dataType: 'json',
         		async: true,
-        		url: 'http://www.omdbapi.com/?apikey='+key+'&t='+searchValue,
+        		url: 'https://www.omdbapi.com/?apikey='+key+'&t='+searchValue,
 
         		success: (response) => {
             		console.log(response);
@@ -78,7 +78,7 @@ $(document).ready(()=>{
         		type: 'GET',
         		dataType: 'json',
         		async: true,
-        		url: 'http://www.omdbapi.com/?apikey='+key+'&i='+searchValue+'&y='+year,
+        		url: 'https://www.omdbapi.com/?apikey='+key+'&i='+searchValue+'&y='+year,
 
         		success: (response) => {
             		console.log(response);
